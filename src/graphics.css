@@ -1,0 +1,45 @@
+.money_div {
+  margin: 0;
+  position: relative;
+  width: 282px;
+  height: 130px;
+}
+.money {
+  position: absolute;
+  left: 38px;
+  bottom: 0;
+}
+.confetti {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.swipes_div {
+  position: relative;
+  width: 157px;
+  height: 143px;
+  overflow: visible;
+  transform: rotate(6deg);
+}
+
+.swipes_word{
+  margin-left: 24px;
+  margin-top: 57px;
+  width: 119px;
+  height: 28px;
+  overflow: visible;
+  text-shadow: 4px -1px 0px #CCDD33, 7px -2px 0px #67a873;
+  transform: rotate(-17deg);
+  letter-spacing: 0px;
+  line-height: 1;
+  font-family: "Poppins-ExtraBold", serif;
+  text-align: center;
+  color: #b3ffc8;
+  font-size: 28px;
+}
+.swipes_background {
+  position: absolute;
+  margin-left: 18px;
+  margin-top: 14px;
+}

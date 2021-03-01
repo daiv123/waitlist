@@ -1,0 +1,32 @@
+<!-- Money -->
+<svg xmlns="http://www.w3.org/2000/svg" width="209" height="74">
+  <path d="M 104.5 47.034 C 162.214 47.034 209 53.07 209 60.517 C 209 67.963 162.214 74 104.5 74 C 46.786 74 0 67.963 0 60.517 C 0 53.07 46.786 47.034 104.5 47.034 Z" fill="hsl(130, 100%, 94%)"></path>
+  <g transform="translate(39.306 0.111)">
+    <g transform="translate(0 -0)">
+      <path d="M 37.289 44.62 L 129.791 26.164 L 129.791 51.516 L 37.289 69.973 Z" fill="#B8ED82"></path>
+      <path d="M 0 18.659 L 37.289 44.62 L 37.289 69.973 L 0 43.809 Z" fill="#B8ED82"></path>
+      <path d="M 0 18.659 L 92.708 0 L 129.791 26.164 L 37.289 44.62 Z" fill="hsl(90, 75%, 72%)"></path>
+      <path d="M 51.252 38.848 C 49.538 36.986 44.89 35.65 39.425 35.65 C 37.348 35.65 35.389 35.843 33.664 36.185 L 17.345 25.168 C 22.636 24.608 26.52 22.755 26.52 20.556 C 26.52 19.06 24.721 17.723 21.903 16.846 L 77.821 5.933 C 79.822 7.56 84.151 8.686 89.17 8.686 C 90.993 8.686 92.726 8.537 94.289 8.27 L 112.426 20.679 C 106.545 21.073 102.075 23.033 102.075 25.392 C 102.075 26.557 103.166 27.624 104.977 28.454 Z" fill="hsl(90, 77%, 87%)"></path>
+    </g>
+    <g transform="translate(0 6.085)">
+      <path d="M 37.495 44.417 L 129.791 25.961" fill="transparent" stroke-width="1.89" stroke="hsl(90, 61%, 57%)"></path>
+      <path d="M 37.538 39.235 L 129.833 20.779" fill="transparent" stroke-width="1.89" stroke="hsl(90, 61%, 57%)"></path>
+      <path d="M 37.495 49.691 L 129.791 31.234" fill="transparent" stroke-width="1.89" stroke="hsl(90, 61%, 57%)"></path>
+      <path d="M 37.495 54.558 L 129.791 36.102" fill="transparent" stroke-width="1.89" stroke="hsl(90, 61%, 57%)"></path>
+      <path d="M 37.495 59.426 L 129.791 40.97" fill="transparent" stroke-width="1.89" stroke="hsl(90, 61%, 57%)"></path>
+      <path d="M 37.538 64.422 L 129.833 45.965" fill="transparent" stroke-width="1.89" stroke="hsl(90, 61%, 57%)"></path>
+      <path d="M 0 18.254 L 37.289 44.417" fill="transparent" stroke-width="1.89" stroke="hsl(90, 61%, 57%)"></path>
+      <path d="M 0 13.223 L 37.289 39.387" fill="transparent" stroke-width="1.89" stroke="hsl(90, 61%, 57%)"></path>
+      <path d="M 0 23.527 L 37.289 49.691" fill="transparent" stroke-width="1.89" stroke="hsl(90, 61%, 57%)"></path>
+      <path d="M 0 28.395 L 37.289 54.558" fill="transparent" stroke-width="1.89" stroke="hsl(90, 61%, 57%)"></path>
+      <path d="M 0 33.262 L 37.289 59.426" fill="transparent" stroke-width="1.89" stroke="hsl(90, 61%, 57%)"></path>
+      <path d="M 0 38.409 L 37.289 64.573" fill="transparent" stroke-width="1.89" stroke="hsl(90, 61%, 57%)"></path>
+      <g transform="translate(38.525 0)">
+        <path d="M 0 4.259 L 21.838 0 L 59.127 26.164 L 37.701 30.626 Z" fill="hsl(62, 100%, 76%)"></path>
+        <path d="M 4.532 3.387 L 18.152 0.73 L 41.409 17.048 L 28.046 19.831 Z" fill="#FFFFF5"></path>
+        <path d="M 18.459 13.203 L 32.079 10.547 L 55.336 26.865 L 41.973 29.648 Z" fill="#FFFFF5"></path>
+        <path d="M 59.097 53.621 L 37.783 58.029 L 37.701 30.585 L 59.127 26.123 Z" fill="hsl(62, 77%, 74%)"></path>
+        <path d="M 55.213 42.848 L 42.028 45.469 L 42.028 29.518 L 55.213 26.772 Z" fill="#F2F3E7"></path>
+        <path d="M 55.28 54.566 L 41.919 57.084 L 42.028 39.659 L 55.213 36.913 Z" fill="#F2F3E7"></path>
+      </g></g></g>
+</svg>
