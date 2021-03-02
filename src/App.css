@@ -1,7 +1,4 @@
 h1 {
-  margin: auto;
-  margin-bottom: 15px;
-  margin-top: 10px;
   width: 367px;
   overflow: hidden;
   letter-spacing: 0px;
@@ -12,9 +9,6 @@ h1 {
   font-size: 30px;
 }
 h2 {
-  margin: auto;
-  margin-top: 0;
-  margin-bottom: 34px;
   width: 367px;
   height: 20px;
   overflow: hidden;
@@ -26,8 +20,6 @@ h2 {
   font-size: 16px;
 }
 input {
-  margin-top:  20px;
-  margin-bottom: 20px;
   display: block;
   box-sizing: border-box;
   width: 330px;
@@ -39,9 +31,6 @@ input {
 }
 
 button {
-  margin-top: 0;
-  display: block;
-  box-sizing: border-box;
   width: 330px;
   height: 40px;
   overflow: visible;

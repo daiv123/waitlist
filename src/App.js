@@ -13,7 +13,7 @@ function App() {
 class WaitlistApp extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {page: 0, email: ''};
+    this.state = {page: 0, email: 'email@email.com'};
     this.handleSubmit = this.handleSubmit.bind(this);
   }
   handleSubmit(m) {
