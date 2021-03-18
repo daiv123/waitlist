@@ -1,34 +1,43 @@
 
 import './App.css';
-import Waitlist from './Waitlist';
-import WaitlistQueue from './WaitlistQueue';
+import WaitlistApp from './WaitlistApp.js'
+import FAQ from './FAQ.js';
 import React from 'react';
+import Navbar from './Navbar'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
-function App() {
+
+function MainPage () {
   return (
-    <WaitlistApp />
+    <Router>
+      <Navbar />
+      <Switch>
+          <Route path="/waitlist">
+            <WaitlistApp />
+          </Route>
+          <Route path="/faq">
+            <FAQ />
+          </Route>
+          <Route path="/">
+            <WaitlistApp />
+          </Route>
+      </Switch>
+    </Router>
   );
 }
 
-class WaitlistApp extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {page: 0, email: 'email@email.com'};
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-  handleSubmit(m) {
-    this.setState({page: 1, email: m});
-    console.log(m);
-  }
-  
-  render() {
-    if (this.state.page === 0) {
-      return (<Waitlist onSubmit={this.handleSubmit} />);
-    }
-    else {
-      return (<WaitlistQueue email={this.state.email} />);
-    }
-  }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <MainPage /> 
+      </header>
+    </div>
+  );
 }
 
 

@@ -1,0 +1,115 @@
+
+
+.carousel_h {
+    font-family: "Poppins-SemiBold", serif;
+    text-align: center;
+    font-size: 15px;
+    color: #00A2FF;
+}
+.carousel_text {
+    width: 299px;
+    height: 62px;
+    overflow: hidden;
+    line-height: 1.3;
+    letter-spacing: 0px;
+    font-family: "Poppins-Regular", serif;
+    font-size: 10px;
+    color: #777777;
+    text-align: center;
+}
+
+.credit_card_div {
+    margin-top: 50px;
+}
+.money_div {
+    margin-top: 40px;
+}
+
+.graphic_div{
+    height: 200px;
+    display: flex;
+    align-items:center;
+
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel_div {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    max-width: 500px;
+    min-width: 310px;
+    height: 330px;
+}
+.slide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 343px;
+}
+.button_next {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.button_back {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.dots{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.dot___3c3SI {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(0, 162, 255, 0.31);
+    margin: 0px 5px;
+}
+
+.carousel__dot--selected {
+    background-color: rgba(0, 162, 255, 255);
+}
+
+
+.join_button {
+    margin-top: 50px;
+    display: block;
+    box-sizing: border-box;
+    width: 330px;
+    height: 40px;
+    overflow: visible;
+    background-color: #00a2ff;
+    border: 0;
+    border-radius: 287px;
+    overflow: visible;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 1;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-style: serif;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 12px;
+    text-decoration: none;
+  }

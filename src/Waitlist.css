@@ -1,59 +1,76 @@
-h1 {
-    margin: auto;
-    margin-bottom: 15px;
-    margin-top: 10px;
-    width: 367px;
+.waitlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.instant {
+    width: 330px;
+    height: 78px;
     overflow: hidden;
     letter-spacing: 0px;
     line-height: 1.3;
     font-family: "Poppins-SemiBold", serif;
     text-align: center;
-    color: #347434;
     font-size: 30px;
-  }
-  h2 {
-    margin: auto;
-    margin-top: 0;
-    margin-bottom: 34px;
-    width: 367px;
-    height: 20px;
-    overflow: hidden;
-    letter-spacing: 0px;
-    line-height: 1.3;
-    font-family: "Poppins-Regular", serif;
-    text-align: center;
-    color: #347434;
-    font-size: 16px;
-  }
-  input {
-    margin-top:  20px;
-    margin-bottom: 20px;
-    display: block;
-    box-sizing: border-box;
-    width: 330px;
-    height: 50px;
-    overflow: visible;
-    background-color: #ffffff;
-    border-radius: 8px;
-    border: 1px solid #DDDDDD;
-  }
-  
-  button {
-    margin-top: 0;
-    display: block;
-    box-sizing: border-box;
-    width: 330px;
-    height: 40px;
-    overflow: visible;
-    background-color: #2ac940;
-    border-radius: 287px;
-    border: 1px solid #2AC940;
-    overflow: visible;
-    letter-spacing: 0px;
-    text-align: center;
-    line-height: 1;
-    font-family: "Poppins-SemiBold", serif;
-    font-size: 14px;
-    color: #ffffff;
-  }
-  
+    color: #0876ba;  
+}
+.stop {
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 34px;
+  width: 366px;
+  height: 20px;
+  overflow: hidden;
+  letter-spacing: 0px;
+  line-height: 1.3;
+  font-family: "Poppins-Regular", serif;
+  text-align: center;
+  font-size: 16px;
+  color: #0876BA;
+}
+#email_input {
+  margin-top:  20px;
+  margin-bottom: 20px;
+  display: block;
+  box-sizing: border-box;
+  width: 330px;
+  height: 50px;
+  overflow: visible;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #DDDDDD;
+}
+
+#submit_button {
+  margin-top: 0;
+  display: block;
+  box-sizing: border-box;
+  width: 330px;
+  height: 40px;
+  overflow: visible;
+  background-color: #00a2ff;
+  border: 0;
+  border-radius: 287px;
+  overflow: visible;
+  letter-spacing: 0px;
+  text-align: center;
+  line-height: 1;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-style: serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+#submit_button:disabled {
+  background-color: #00a2ff91;
+}
+#win_tesla {
+  margin-top: 30px;
+  width: 248px;
+  letter-spacing: 0px;
+  line-height: 1.3;
+  text-align: center;
+  font-size: 18px;
+  font-style: serif;
+  color: #0876BA;
+}

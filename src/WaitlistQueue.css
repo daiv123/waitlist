@@ -1,14 +1,32 @@
+.waitlist_queue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    width: 330px;
+    height: auto;
+    overflow: hidden;
+    letter-spacing: 0px;
+    line-height: 1.3;
+    font-family: "Poppins-SemiBold", serif;
+    text-align: center;
+    font-size: 30px;
+    color: #0876ba;  
+}
 .queue_position_div {
     width: 318px;
     height: 180px;
-    overflow: hidden;
     box-shadow: 0px 2px 5px 0px #dddddd;
-    background-color: #c4f297;
+    background-color: #b8eaff;
+    overflow: hidden;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .people {
     width: 195px;
     height: 20px;
@@ -43,9 +61,9 @@
     letter-spacing: 0px;
     line-height: 1.3;
     text-align: center;
-    color: #347434;
     font-family: "Poppins-Medium", serif;
     font-size: 12px;
+    color: #00A2FF;
     text-decoration: underline;
     margin-top: 12px;
 }

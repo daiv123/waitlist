@@ -5,9 +5,11 @@ class WaitlistQueue extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>Thank You!</h1>
-          <h2>We've added you to the sign up queue</h2>
-          <QueuePosition number={500000} email={this.props.email} />
+          <div className = "waitlist_queue" >
+            <h1>Thank You!</h1>
+            <h2>We've added you to the sign up queue</h2>
+            <QueuePosition number={500000} email={this.props.email} />
+          </div>
         </header>
       </div>
     );

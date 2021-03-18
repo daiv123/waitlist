@@ -1,6 +1,7 @@
-import {MoneyGraphic, SwipesGraphic} from './graphics';
+import {MoneyGraphic} from './graphics';
 import React from 'react';
 import './Waitlist.css';
+
 
 class Waitlist extends React.Component {
   constructor(props) {
@@ -25,16 +26,18 @@ class Waitlist extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <SwipesGraphic />
-          <h1>Instant prizes for everyday shopping</h1>
+          <div className = "waitlist">
+            <h1 className="instant">Instant prizes for every time you shop</h1>
 
-          <h2>Stop spending months for a $10 giftcard</h2>
+            <h2 className="stop">Stop spending months for a $10 giftcard</h2>
 
-          <MoneyGraphic />
-          <form onSubmit={this.handleSubmit}>
-            <input id="email_input" placeholder="Enter Email Address" value={this.state.email} onChange={this.handleChange}/>
-            <button id="submit_button" type="submit" value="Submit">Get Early Access</button>
-          </form>
+            <MoneyGraphic />
+            <h2 id="win_tesla">Win a Tesla and up to $50,000</h2>
+            <form onSubmit={this.handleSubmit}>
+              <input id="email_input" placeholder="Enter Email Address" value={this.state.email} onChange={this.handleChange}/>
+              <button id="submit_button" type="submit" value="Submit" disabled={this.state.email===''}>Get Early Access</button>
+            </form>
+          </div>
         </header>
       </div>
     );

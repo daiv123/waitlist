@@ -43,3 +43,62 @@
   margin-left: 18px;
   margin-top: 14px;
 }
+.card_win_div {
+  position: relative;
+  width: 204px;
+  height: 201px;
+}
+.card_win_graphic {
+  position: absolute;
+  top: 0;
+  left:-31px;
+
+}
+._s {
+  width: 14px;
+  height: 20px;
+  overflow: visible;
+  text-shadow: 3px 0px 0px #00A2FF;
+  transform: rotate(-20deg);
+  font-family: "Jost-Bold", serif;
+  letter-spacing: 0px;
+  line-height: 1;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  top: 55px;
+  left: 25px;
+}
+._sss {
+  width: 76px;
+  height: 40px;
+  overflow: visible;
+  text-shadow: 3px 0px 0px #22CCDD, 6px 0px 0px #00A2FF;
+  transform: rotate(20deg);
+  font-family: "Jost-Bold", serif;
+  letter-spacing: 0px;
+  line-height: 1;
+  color: #ffffff;
+  font-size: 40px;
+  position: absolute;
+  top: 90px;
+  left: 87px;
+
+}
+.win {
+  width: 73px;
+  height: 23px;
+  overflow: hidden;
+  text-shadow: 4px -1px 0px #22CCDD, 7px -2px 0px #00A2FF;
+  transform: rotate(20deg);
+  letter-spacing: 0px;
+  line-height: 1;
+  font-family: "Poppins-ExtraBold", serif;
+  color: #ffffff;
+  font-size: 26px;
+  text-align: left;
+  position: absolute;
+  top: 50px;
+  left: 105px;
+
+}
