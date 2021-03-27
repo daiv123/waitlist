@@ -21,7 +21,7 @@ function Carousel() {
               <div className="graphic_div">
                 <CreditCardGraphic/>
               </div>
-              <h2 className="carousel_h">Link a card & shop. Earn swipes</h2>
+              <h2 className="carousel_h">Link a card & shop. Earn swipes & win!</h2>
               <p className="carousel_text">No receipts, coupons, or hassle. Just connect your card, shop and earn swipes to win prizes!</p>
             </div>
           </Slide>
