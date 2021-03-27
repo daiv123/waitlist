@@ -22,7 +22,7 @@ function Carousel() {
                 <CreditCardGraphic/>
               </div>
               <h2 className="carousel_h">Link a card & shop. Earn swipes</h2>
-              <p className="carousel_text">No recipts, coupons, or hasle. Connect your card to earn swipes and win prizes!</p>
+              <p className="carousel_text">No receipts, coupons, or hassle. Just connect your card, shop and earn swipes to win prizes!</p>
             </div>
           </Slide>
           <Slide index={1}>
@@ -31,7 +31,7 @@ function Carousel() {
                 <CardWinGraphic/>
               </div>  
               <h2 className="carousel_h">Swipe right to win. Swipe left to skip.</h2>
-              <p className="carousel_text">Swipe for instant prizes! Pick & match 6 lucky numbers to win the grand prize Tesla with winner(s) announced weekly</p>
+              <p className="carousel_text">Swipe for instant prizes! Winners announced weekly for the $10,000 grand prize!</p>
             </div>
           </Slide>
           <Slide index={2}>
