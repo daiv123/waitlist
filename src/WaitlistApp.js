@@ -5,12 +5,15 @@ import React from 'react';
 export default class WaitlistApp extends React.Component {
     constructor(props) {
       super(props);
-      this.state = {page: 0, email: 'email@email.com'};
+      this.state = {page: 0, email: ''};
       this.handleSubmit = this.handleSubmit.bind(this);
+      this.handleNotYou = this.handleNotYou.bind(this);
     }
     handleSubmit(m) {
       this.setState({page: 1, email: m});
-      console.log(m);
+    }
+    handleNotYou(m) {
+      this.setState({page: 0, email: ''});
     }
     
     render() {
@@ -18,7 +21,7 @@ export default class WaitlistApp extends React.Component {
         return (<Waitlist onSubmit={this.handleSubmit} />);
       }
       else {
-        return (<WaitlistQueue email={this.state.email} />);
+        return (<WaitlistQueue email={this.state.email} onNotYou={this.handleNotYou} />);
       }
     }
   }

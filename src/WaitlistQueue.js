@@ -8,7 +8,7 @@ class WaitlistQueue extends React.Component {
           <div className = "waitlist_queue" >
             <h1 class="thank">Thank You!</h1>
             <h2 class="added">We've added you to the sign up queue</h2>
-            <QueuePosition number={500000} email={this.props.email} />
+            <QueuePosition number={500000} email={this.props.email} onNotYou={this.props.onNotYou} />
           </div>
         </header>
       </div>
@@ -23,6 +23,7 @@ function QueuePosition(props) {
       <p class="people">People ahead of you</p>
       <p class="number">{props.number.toLocaleString()}</p>
       <p class="email">{props.email}</p>
+      <p class="notyou" onClick={props.onNotYou}>Not you?</p>
     </div>
   );
 }

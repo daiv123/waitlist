@@ -1,4 +1,4 @@
-import { MoneyGraphic, Arrow, CreditCardGraphic, CardWinGraphic} from './graphics';
+import { HeartGraphic, Arrow, CreditCardGraphic, CardWinGraphic} from './graphics';
 import React from 'react';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, DotGroup } from 'pure-react-carousel';
 import {Link} from 'react-router-dom';
@@ -37,10 +37,10 @@ function Carousel() {
           <Slide index={2}>
             <div className="slide">
               <div className="graphic_div">
-                <MoneyGraphic/>
+                <HeartGraphic/>
               </div>
-              <h2 className="carousel_h">Play to win a Tesla and up to $50,000!</h2>
-              <p className="carousel_text">Get 1 FREE swipe per week and win Tesla grand prize entries per swipe. Invite friends, shop, or donate to charity to play more!</p>
+              <h2 className="carousel_h">Play more and donate to ones in need!</h2>
+              <p className="carousel_text">Playing more Swipe with option donations helps ones in need with healthy meals every time you play.</p>
             </div>
           </Slide>
         </Slider>

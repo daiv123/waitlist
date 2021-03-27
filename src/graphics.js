@@ -6,7 +6,7 @@ import win_graphic from './win.svg';
 import arrow_left from './arrow_left.svg';
 import card_win from './card_win.svg';
 import credit_card from './credit_card.svg';
-
+import heart from './heart.svg';
 import './graphics.css';
 
 function MoneyGraphic(props) {
@@ -69,7 +69,13 @@ function CardWinGraphic() {
     </div>
   );
 }
-
+function HeartGraphic() {
+  return (
+    <div class="heart_div">
+      <img class="heart_graphic" alt="HEART" src = {heart}/>
+    </div>
+  );
+}
 export {
   MoneyGraphic,
   SwipesGraphic,
@@ -77,5 +83,6 @@ export {
   WinGraphic,
   Arrow,
   CreditCardGraphic,
-  CardWinGraphic
+  CardWinGraphic,
+  HeartGraphic,
 };
