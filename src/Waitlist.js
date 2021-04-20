@@ -6,20 +6,26 @@ import './Waitlist.css';
 class Waitlist extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {email: ''};
+    this.state = {email: '',emailIsValid:false};
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
+  validateEmail(email){
+    const re = /\S+@\S+\.\S+/;
+    return re.test(String(email).toLowerCase().trim());
+  }
   handleChange(event) {
-    this.setState({email: event.target.value});
+    let email = event.target.value;
+    this.setState({email: String(email).toLowerCase().trim(), emailIsValid:this.validateEmail(email)});
   }
 
   handleSubmit(event) {
     //submit to server
-    if (this.state.email !== ''){
+    event.preventDefault();
+    
+    if (this.state.emailIsValid){
       this.props.onSubmit(this.state.email);
     }
-    event.preventDefault();
   }
 
   render() {
@@ -35,7 +41,7 @@ class Waitlist extends React.Component {
             <h2 id="win_tesla">Win a Tesla and up to $50,000</h2>
             <form onSubmit={this.handleSubmit}>
               <input id="email_input" placeholder="Enter Email Address" value={this.state.email} onChange={this.handleChange}/>
-              <button id="submit_button" type="submit" value="Submit" disabled={this.state.email===''}>Get Early Access</button>
+              <button id="submit_button" type="submit" value="Submit" disabled={!this.state.emailIsValid}>Get Early Access</button>
             </form>
           </div>
         </header>

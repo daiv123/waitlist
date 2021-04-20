@@ -12,6 +12,7 @@ import {
 
 
 function MainPage () {
+
   return (
     <Router>
       <Navbar />
