@@ -35,10 +35,10 @@ class Waitlist extends React.Component {
           <div className = "waitlist">
             <h1 className="instant">Instant prizes for every time you shop</h1>
 
-            <h2 className="stop">Stop spending months for a $10 giftcard</h2>
+            <h2 className="stop">Stop spending months for a giftcard</h2>
 
             <MoneyGraphic />
-            <h2 id="win_tesla">Win a Tesla and up to $50,000</h2>
+            <h2 id="win_tesla">Win $30,000 in prizes & a trip to Hawaii</h2>
             <form onSubmit={this.handleSubmit}>
               <input id="email_input" placeholder="Enter Email Address" value={this.state.email} onChange={this.handleChange}/>
               <button id="submit_button" type="submit" value="Submit" disabled={!this.state.emailIsValid}>Get Early Access</button>
